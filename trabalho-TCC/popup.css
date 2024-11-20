@@ -1,0 +1,82 @@
+/* estilização do poupup */
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+	margin: 2rem;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.bloco-container {
+	background: #fff;
+	padding: 2rem;
+	border-radius: 0.8rem;
+	box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+	width: 120%;
+	max-width: 60rem;
+}
+
+.bloco-container h1 {
+	text-align: center;
+	color: #333;
+	margin-bottom: 2rem;
+	font-size: 3.2rem;
+}
+
+.bloco {
+	margin-bottom: 1.5rem;
+	margin-right: 4rem;
+}
+
+.bloco label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+
+.bloco input {
+	width: 100%;
+	padding: 1rem;
+	border: 0.1rem solid #ddd;
+	border-radius: 0.5rem;
+}
+
+.bloco button {
+	width: 50%;
+	padding: 1rem;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 0.5rem;
+	font-size: 1.6rem;
+	cursor: pointer;
+}
+
+.bloco button:hover {
+	background-color: #1f78b3;
+	color: black;
+}
+
+.bloco p {
+	text-align: center;
+	font-size: 1.4rem;
+	color: #555;
+}
+
+.bloco a {
+	color: #4caf50;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.bloco a:hover {
+	text-decoration: underline;
+	color: black;
+}
